@@ -27,13 +27,13 @@ EHLO localhost
 
 AUTH LOGIN 
 
-<your-gmail-address-encoded-as-base64>
+your-gmail-address-encoded-as-base64
 
-<yourapplication-password-generated-from-myaccounts.google.com-encoded-as-base64>
+yourapplication-password-generated-from-myaccounts.google.com-encoded-as-base64
 
-MAIL FROM: <your-gmail-address-not-encoded>
+MAIL FROM: your-gmail-address-not-encoded (with < >)
 
-rcpt to: <destination-address-not-encoded>
+rcpt to: destination-address-not-encoded (with < >)
 
 DATA
 
